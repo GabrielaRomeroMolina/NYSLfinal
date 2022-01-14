@@ -1,0 +1,150 @@
+.contenedor{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.cabeza{
+    z-index: -10px;
+}
+.titulo{
+    z-index: 20px;
+    margin-top: -260px;
+    margin-bottom: 189px;
+
+}
+.textoTitulo{
+    font-size: 50;
+    z-index: 20px;
+    color: white;
+
+}
+.banner{
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 40%;
+    margin: 0 auto;
+}        
+.imagenbanner{
+    width:100%;
+    height: 100%;
+    object-position: 20% 10%;
+    object-fit: cover;
+}
+.barra{
+    align-items: center;
+    background-color: rgb(89, 87, 199);
+    margin-top:-20px;
+   
+}
+.textobarra{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.logo{
+    width: 10%;
+    margin-left: 80%;
+    margin-top: -80px;
+}
+.imagenlogo{
+    width: 100px;
+    margin-right: 20%;
+}
+.cuerpo{
+    margin-top: 10px;
+    
+}
+.link{
+    float:left;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: solid;
+    margin-right: 4%;
+    font-weight: bolder;
+}
+.linkhome{
+    width: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.linkabout{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.linkcontac{
+    width: 10;
+    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.linkrules{
+    width: 50px;
+    margin-bottom: 30px;
+    margin-top: 25px; 
+    text-decoration: none;
+}
+.linkinfo{
+    width: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px; 
+    text-decoration: none;
+    text-align: left;
+}
+.linkform{
+    width: 50px;
+    margin-bottom: 30px;
+    margin-top: 40px; 
+    text-decoration: none;
+}
+.informacion{
+    float: right;
+    width: 80%;
+    justify-content: center;
+}
+table{
+    width: 100%;
+}
+tr{
+    text-align: center;
+    background-color: rgb(216, 214, 214);
+}
+th{
+    background-color: rgb(89, 87, 199);
+    color: white;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+input{
+    margin-bottom: 30px;
+   
+}
+#EC{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+#Fcss{
+    background-color: rgb(89, 87, 199);
+    color: white;
+}
+#EF{
+    margin-left: 40%;
+}
+hr{
+    color: rgb(89, 87, 199);
+    size: "10";
+
+    
+}
